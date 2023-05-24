@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Task } from '../../models/task';
-import tasks from '../../tasks';
 import { Message } from '../message/message';
 import { TaskCreator } from '../task-creator/task-creator';
 import { TaskItem } from '../task-item/task-item';

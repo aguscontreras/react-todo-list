@@ -1,0 +1,91 @@
+* {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 1em;
+  margin: 0;
+  background-color: rgb(237, 235, 241);
+}
+
+li {
+  padding: 0.5em 1em;
+  margin-bottom: 0.5em;
+  border: 1px solid rgb(202, 209, 216);
+  background-color: rgb(250, 248, 248);
+  border-radius: 0.25em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.85em;
+}
+
+.btn {
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background-color: rgb(211, 211, 211) !important;
+  color: gray !important;
+  cursor: default;
+}
+
+.btn-primary {
+  background-color: rgb(141, 85, 214);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: rgb(99, 51, 161);
+}
+
+.btn-info {
+  background-color: rgb(30, 132, 228);
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: rgb(32, 102, 168);
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: rgb(175, 16, 16);
+}
+
+.add-new-form {
+  background-color: rgb(223, 221, 229);
+  display: flex;
+  padding: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  flex: 1;
+  padding: 0.5em;
+  border: 1px solid rgb(202, 209, 216);
+  border-radius: 0.25em;
+}
+
+.message {
+  padding: 0.25em;
+  border-radius: 0.25em;
+  text-align: center;
+  font-size: 0.85em;
+  margin: 0.5em 0;
+}
+
+.message.info {
+  background-color: rgb(220, 221, 245);
+  color: rgb(66, 70, 180);
+}
